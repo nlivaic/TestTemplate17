@@ -2,5 +2,5 @@ namespace TestTemplate17.Api.Constants;
 
 public static class Headers
 {
-    public static readonly string Pagination = "X-Pagination";
+    public static readonly string Pagination = "X-Pagination"; 
 }
