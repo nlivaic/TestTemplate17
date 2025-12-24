@@ -1,0 +1,10 @@
+{
+	"servicePrincipalLockConfiguration": {
+		"allProperties": true,
+		"credentialsWithUsageSign": true,
+		"credentialsWithUsageVerify": true,
+		"identifierUris": false,
+		"isEnabled": true,
+		"tokenEncryptionKeyId": true
+	}
+ }

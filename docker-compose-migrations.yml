@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  testtemplate17.migrations:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    # image: ${DOCKER_REGISTRY-}testtemplate9sql
+    env_file: .env
+    build:
+      context: .
+      dockerfile: src/TestTemplate17.Migrations/Dockerfile
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
